@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background: url('https://png.pngtree.com/thumb_back/fw800/background/20201031/pngtree-abstract-technology-circuit-board-and-codes-background-image_451852.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-weight: 600;
+    padding-left: 50px;
+}
+nav a:hover{
+    color: orange;
+}
+
+
+
+
+
+
+
