@@ -4,7 +4,7 @@ header{
     background-color: rgba(0, 0, 0, 0.9);
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     
 }
 
@@ -33,6 +33,7 @@ a{
 nav a{
     font-weight: 600;
     padding-left: 50px;
+    
 }
 nav a:hover{
     color: orange;

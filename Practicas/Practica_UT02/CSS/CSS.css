@@ -56,8 +56,41 @@ div a{
     background-color: rgba(0, 0, 0, 0.7);
     color:  white;
     margin-top: -21px;
+    height: 999px;
 }
-
+.Tema_1{
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    right: 910px;
+}
+.Tema_2{
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    right: 390px;
+}
+.Tema_3{
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: white;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 970px;
+    right: 30px;
+}
 .div1{
     margin-top: -21px;
     

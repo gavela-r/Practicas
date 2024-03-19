@@ -5,7 +5,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    
 }
 
 .logo{
@@ -24,6 +23,7 @@ body{
     background: url('https://png.pngtree.com/thumb_back/fw800/background/20201031/pngtree-abstract-technology-circuit-board-and-codes-background-image_451852.jpg') no-repeat center center fixed; 
     background-size: cover;
 }
+
 nav a:hover{
     color: white;
 }
@@ -32,8 +32,8 @@ a.borde{
     text-decoration: none;
     color: black;
     -webkit-text-stroke: 1px white;
-
 }
+
 a.logo{
     color: white;
     text-decoration: none;
@@ -42,40 +42,37 @@ a.logo{
 nav a{
     font-weight: 600;
     padding-left: 50px;
+    -webkit-text-stroke: 0.5px white;
     
 }
 
-.vacio{
+div a{
+    color: white;
+    text-align: center;
+
+    
+}
+div p{
+    height: 0.3px;
+}
+.arriba{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    height: 999px;
-    margin-top: 20px;
+    color:  white;
+    margin-top: -21px;
+    height: 1100px;
     
 }
-
 .Tema_1{
-    text-align: center;
-    background-color: rgb(0, 0, 0, 0.5);
-    border-radius: 30px;
-    color: white;
-    height: 300px;
-    position: absolute;
-    top: 200px;
-    left: 550px;
-    right: 500px;
+    
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        border-radius: 30px;
+        color: white;
+        height: 300px;
+        position: absolute;
+        top: 200px;
+        left: 550px;
+        right: 500px;
+    
 }
-
-h1{
-    color: white;
-}
-p a{
-    color: white;
-}
-div{
-    margin-top: -21px;
-}
-
-
-
-

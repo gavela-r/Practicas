@@ -1,5 +1,5 @@
-const button = document.querySelector("div");
-
+const button = document.getElementById('boton')
+console.log(button);
 
 button.addEventListener("click", function() {
     
