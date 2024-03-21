@@ -1,6 +1,6 @@
 function isHeterograma(str){
     let letras = '';
-    for(let k = 1; k < str.length; k++){
+    for(let k = 0; k < str.length; k++){
         let letra = str[k];
         if(letras.includes(letra)){
             return false;
