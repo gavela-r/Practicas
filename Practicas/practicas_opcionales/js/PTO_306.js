@@ -1,8 +1,13 @@
 function getNames(arr){
-    arr.map(item=>{
-
-        console.log(item.split(''));
+    return arr.map(name =>{
+        let [firstName, ...lastName] = name.split(' ');
+        return {
+            nombre: firstName,
+            apellidos: lastName.join(' ')
+        };
     })
-    return {};
 }
+
+
+
 console.log(getNames( ['Victor González Rodríguez', 'Pepe Pérez Fernández']));
