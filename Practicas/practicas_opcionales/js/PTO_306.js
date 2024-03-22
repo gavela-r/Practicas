@@ -1,10 +1,10 @@
 function getNames(arr){
-    return arr.map(name =>{
-        let [firstName, ...lastName] = name.split(' ');
+    return arr.map(str =>{
+        [nom, ape1, ape2] = str.split('');
         return {
-            nombre: firstName,
-            apellidos: lastName.join(' ')
-        };
+            nombre: nom,
+            apeliidos: `${ape1} ${ape2}`
+        }
     })
 }
 

@@ -1,12 +1,5 @@
 function getUpperCase(arr){
-    let mayus = arr.filter(item =>{
-        if(item >= 'A' && item <= 'Z'){
-            return true;
-        }else{
-            return false;
-        }
-    })
-    return mayus;
+    return arr.filter(str => str == str.toUpperCase() )
 }
 
-console.log(getUpperCase(['aBc', 'BE', 'hfa', 'AEO']));
+console.log(getUpperCase(['aBc', 'BE', 'hfa', 'AEo']));

@@ -1,6 +1,6 @@
 function arraydiff(a, b){
-    return a.filter(index=>
-        !b.includes(index)
+    return a.filter(elemento=>
+        !b.includes(elemento)
     )
 
 }   

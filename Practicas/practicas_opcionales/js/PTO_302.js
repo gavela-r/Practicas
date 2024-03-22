@@ -1,15 +1,29 @@
 function isIsograma(str){
-    let letras = '';
-    for(let k = 0; k < str.length; k++){
-        let letra = str[k];
-        if(letras.includes(letra)){
-            return true;
+    let contador = {
+
+    };
+    
+    str.split('').forEach(letra => {
+        //contador[letra] = contador[letra] ? contador[letra]+1 :1
+        if(contador[letra]){
+            contador[letra] += 1;
+        }else{
+            contador[letra] = 1;
         }
-        letras += letra;
-    }
-    return false;
+        let veces;
+        for(letra in contador){
+            if(!veces){
+                veces = contador[letra];
+            }else if(contador[letra] != veces){
+                return false;
+            }
+            
+        }
+        console.log(contador);
+    });
+    return true;
 } 
 
-console.log(isIsograma('acondicionar'));
-console.log(isIsograma('papelera escritura'));
-console.log(isIsograma('hola'));
+console.log(isIsograma('aaabbbcccdddrrr'));
+// console.log(isIsograma('papelera escritura'));
+// console.log(isIsograma('hola'));
