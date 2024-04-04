@@ -1,14 +1,14 @@
 function isHeterograma(str){
-    let letras = '';
+    let palabra = '';
     for(let k = 0; k < str.length; k++){
-        let letra = str[k];
-        if(letras.includes(letra)){
+        if(palabra.includes(str[k])){
             return false;
         }
-        letras += letra;
+        palabra += str[k];
     }
     return true;
 }
 
 console.log(isHeterograma('villabalter'));
 console.log(isHeterograma('victor'));
+console.log(isHeterograma('aaaaahla'));

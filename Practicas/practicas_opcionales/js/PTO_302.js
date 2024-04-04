@@ -4,6 +4,7 @@ function isIsograma(str){
     };
     
     str.split('').forEach(letra => {
+        
         //contador[letra] = contador[letra] ? contador[letra]+1 :1
         if(contador[letra]){
             contador[letra] += 1;
@@ -14,6 +15,7 @@ function isIsograma(str){
         for(letra in contador){
             if(!veces){
                 veces = contador[letra];
+                console.log(veces);
             }else if(contador[letra] != veces){
                 return false;
             }
@@ -25,5 +27,5 @@ function isIsograma(str){
 } 
 
 console.log(isIsograma('aaabbbcccdddrrr'));
-// console.log(isIsograma('papelera escritura'));
-// console.log(isIsograma('hola'));
+console.log(isIsograma('papelera escritura'));
+console.log(isIsograma('hola'));
