@@ -1,18 +1,15 @@
 function digitalRoot(a){
-    if(a < 10){
-        return a
+    if(a <= 9){
+        return a;
     }else{
-        let resultado = 0;
-        while(a > 10){
-            resultado += a % 10;
+        let res = 0;
+        while(a >= 10){
+            res += a % 10;
             a = Math.floor(a / 10);
-           
         }
-        return digitalRoot(resultado);
+        res += a;
+        return digitalRoot(res);
     }
-   
-
-   
 
 }
 

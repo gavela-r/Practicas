@@ -4,6 +4,7 @@ function arraydiff(a, b){
     )
 
 }   
+//arraydiff = (a,b) => a.filter(e=> !b.includes(e)) 
 
 console.log(arraydiff([1,2], [1]));
 console.log(arraydiff([1,2,3], [1,2]));

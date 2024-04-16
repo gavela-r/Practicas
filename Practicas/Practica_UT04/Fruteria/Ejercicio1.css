@@ -42,3 +42,122 @@ body {
     min-width: 350;
     background-color: #CA9E13;
 }
+.product{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-foto img{
+    width: 200px;
+    
+}
+.product-data{
+    margin: 0px 0px 10px 0px;   
+}
+.fruit-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #81B214;
+    margin-top: 0;
+}
+.precioColor{
+    background-color: #F58634;
+    padding-left: 10%;
+    color: white;
+}
+.btn{
+    margin-left: 20%;
+}
+.paginacion-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.principal{
+    background-color: white;
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+    display: flex;
+
+    
+}
+.cant{
+    background-color: grey;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.producto{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 80%;
+}
+.precio{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.fila{
+    background-color: #efefef;
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.precioProd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+}
+.cantidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+.fila2{
+    background-color: #efefef;
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+}
+.pecioTotal{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-right: 5%;
+}
+
+
